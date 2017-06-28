@@ -1,0 +1,82 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+  display: block;
+}
+
+body {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: medium;
+  color: black;
+  background-color: #E5E5E5;
+  height: 100%;
+  margin: 0;
+}
+
+/* Table */
+table {
+  border: 1px black solid;
+  width: 600px;
+  border-collapse: collapse;
+}
+
+caption {
+  margin-top: 25px; 
+}
+
+td, th {
+  border: 1px black solid;
+}
+
+tr:nth-of-type(even) {
+    background: #90EE90;
+}
+
+tr:nth-of-type(2n+3) {
+    background: #ADD8E6;
+}
+
+tr:nth-of-type(7) {
+     background-color: #E5E5E5;   
+     color: black; 
+}
+
+.Italic {
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* List */
+ul {
+  list-style: square;
+}
+
+ul ul{
+  list-style: circle;
+}
+
+/* Inner and Outer Div */
+.outer-content {
+  background-color: pink;
+  width: 75%;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.inner-content {
+  background-color: #ADD8E6;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Form */
+form {
+  margin-bottom: 25px;
+}
+
+fieldset {
+  margin: 5px;
+}
+
+.space {
+  margin: 10px 0 10px 0;
+}
